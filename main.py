@@ -4,7 +4,7 @@ import art
 bids = {}
 
 print(art.logo)
-print("Welcome to the secret auction program.")
+print("Welcome to the Secret Auction Program.")
 
 def add_bid(name, amount):
   bids[name] = amount
@@ -33,4 +33,3 @@ while has_next:
   clear()
 
 calculate_highest()
-
